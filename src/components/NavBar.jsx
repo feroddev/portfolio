@@ -9,7 +9,7 @@ export function NavBar() {
   return (
     <nav className={ styles.navbar }>
       <ul className={ styles.list }>
-        <li className={ styles.item }>
+        <li id="home" className={ styles.item }>
           <a className={ styles.text } href="#home">{header[language].home}</a>
         </li>
         <li className={ styles.item }>

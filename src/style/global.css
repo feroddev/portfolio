@@ -11,13 +11,19 @@
   --font-title: 'Montserrat', sans-serif;
   --bold-title: 900;
   --regular-title: 400;
-  background-color: var(--gray-primary);
+  --font-text: "Encode Sans Condensed", sans-serif;
 }
 
-html, body{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: var(--);
+  background-color: var(--gray-primary);
+  font-family: var(--font-text);
 }
 
 h1 {
@@ -28,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-family: var(--font-title);
+  font-family: var(--font-text);
   font-size: 2rem;
   font-weight: var(--regular-title);
   color: var(--black-primary);
