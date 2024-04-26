@@ -1,0 +1,111 @@
+.container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subcontainer {
+  background-color: var(--black-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: var(--max-width);
+  border-radius: 80px;
+  padding: 80px 0;
+  height: 100vh;
+  max-height: 650px;
+  margin-bottom: 300px;
+}
+
+.containerTitle {
+  margin-bottom: 80px;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.title {
+  position: absolute;
+  font-size: 6rem;
+  color: var(--white-opacity-15);
+}
+
+.subtitle {
+  font-size: 2.3rem;
+  color: var(--green-primary);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray-primary);
+  max-width: 1000px;
+  border-radius: 50px;
+  box-shadow: 0 5px 10px var(--black-opacity-20);
+  border: 1px solid var(--black-opacity-20);
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 30%;
+  max-width: 250px;
+  height: 100%;
+  padding: 40px 20px 60px 20px;
+}
+
+.skill ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.skill:not(:last-child) {
+  border-right: 1px solid var(--black-opacity-20);
+}
+
+.skill ul li {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 2px 4px;
+  border: 1px solid var(--black-primary);
+}
+
+.skill ul li:hover {
+  background-color: var(--black-opacity-10);
+  cursor: default;
+}
+
+.skill img {
+  width: 60px;
+  height: 60px;
+}
+
+.skill h4 {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.skill p {
+  font-size: 1rem;
+}
+
+.skill h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}

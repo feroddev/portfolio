@@ -33,6 +33,7 @@
   margin-right: 15px;
   position: absolute;
   left: 90%;
+  cursor: pointer;
 }
 
 .list {

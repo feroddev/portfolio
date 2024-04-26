@@ -50,6 +50,7 @@
 
 .logo:hover {
   filter:grayscale(100%);
+  cursor: pointer;
 }
 
 .logos {
@@ -75,6 +76,7 @@
 .button:hover {
   background-color: var(--green-primary);
   color: var(--black-primary);
+  cursor: pointer;
 }
 
 .image {
