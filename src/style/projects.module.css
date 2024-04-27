@@ -72,16 +72,16 @@
   font-weight: bolder;
   line-height: 1;
   letter-spacing: 0.7px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .description {
   display: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--gray-primary);
   text-align: center;
   line-height: 1;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .project:hover .description {
@@ -96,4 +96,36 @@
 .logo:hover {
   filter: brightness(0.8);
   cursor: pointer;
+}
+
+.category {
+  font-size: 1rem;
+  background-color: var(--gray-primary);
+  color: var(--black-primary);
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.technologies {
+  display: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.technology {
+  background-color: var(--gray-primary);
+  color: var(--black-primary);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 2px;
+  font-size: 0.9rem;
+}
+
+.project:hover .technologies {
+  display: flex;
 }

@@ -17,9 +17,17 @@ export default function Projects() {
           <div key={ project.title } className={ styles.project }>
             <img src={ project.image } alt={ project.title } className={ styles.image } />
             <h2 className={ styles.titleProject }>{project.title}</h2>
+            <h3 className={ styles.category }>{project.category}</h3>
             <p className={ styles.description }>
               {project[`synopsis${language.toUpperCase()}`]}
             </p>
+            <div className={ styles.technologies }>
+              {project.technologies.map((technology) => (
+                <span key={ technology } className={ styles.technology }>
+                  {technology}
+                </span>
+              ))}
+            </div>
             <div className={ styles.logos }>
               <a href={ project.github } target="_blank" rel="noreferrer">
                 <img src="/github_gray.svg" alt="git hub" className={ styles.logo } />
