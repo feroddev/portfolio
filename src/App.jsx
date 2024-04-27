@@ -1,6 +1,7 @@
 import { About } from './components/About';
 import Header from './components/Header';
 import { MainInfo } from './components/MainInfo';
+import Projects from './components/Projects';
 import { Skills } from './components/Skills';
 import LanguageProvider from './context/language.provider';
 
@@ -11,6 +12,7 @@ function App() {
       <MainInfo />
       <About />
       <Skills />
+      <Projects />
     </LanguageProvider>
   );
 }
