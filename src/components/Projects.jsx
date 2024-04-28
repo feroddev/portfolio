@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <div className={ styles.container }>
       <div className={ styles.containerTitle }>
-        <h1 className={ styles.title }>{projects[language].title}</h1>
+        <h1 id="projects" className={ styles.title }>{projects[language].title}</h1>
         <h1 className={ styles.subtitle }>{projects[language].subTitle}</h1>
       </div>
       <div className={ styles.projects }>

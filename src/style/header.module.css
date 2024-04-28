@@ -58,4 +58,5 @@
 .text:hover {
   color: var(--green-primary);
   font-weight: 500;
+  cursor: pointer;
 }

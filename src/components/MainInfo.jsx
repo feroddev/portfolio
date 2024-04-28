@@ -7,7 +7,7 @@ export function MainInfo() {
   const { language } = useContext(LanguageContext);
 
   return (
-    <div className={ styles.container }>
+    <div id="home" className={ styles.container }>
       <div className={ styles.subContainer }>
         <div className={ styles.info }>
           <h2 className={ styles.greatings }>{mainInfo[language].greatings}</h2>
