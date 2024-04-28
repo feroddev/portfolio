@@ -3,11 +3,11 @@ const CONTEXT_API = 'Context API';
 const translations = {
   en: {
     title: 'Projects',
-    subTitle: 'Some works I did',
+    subTitle: 'Works done',
   },
   pt: {
     title: 'Projetos',
-    subTitle: 'Trabalhos que fiz',
+    subTitle: 'Trabalhos realizados',
   },
   projects: [
     {
@@ -24,6 +24,7 @@ const translations = {
         'JWT',
         'Docker',
         'REST API',
+        'Typescript',
       ],
       synopsisPT: 'Um sistema de gerenciamento de tabela de um campeonato de futebol.',
       synopsisEN: 'A football championship table management system.',
