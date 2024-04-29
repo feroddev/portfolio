@@ -7,9 +7,9 @@ export default function Projects() {
   const { language } = useContext(LanguageContext);
 
   return (
-    <div className={ styles.container }>
+    <div id="projects" className={ styles.container }>
       <div className={ styles.containerTitle }>
-        <h1 id="projects" className={ styles.title }>{projects[language].title}</h1>
+        <h1 className={ styles.title }>{projects[language].title}</h1>
         <h1 className={ styles.subtitle }>{projects[language].subTitle}</h1>
       </div>
       <div className={ styles.projects }>

@@ -7,9 +7,9 @@ export function About() {
   const { language } = useContext(LanguageContext);
 
   return (
-    <div className={ styles.container }>
+    <div id="about" className={ styles.container }>
       <div className={ styles.containerTitle }>
-        <h1 id="about" className={ styles.title }>{about[language].title}</h1>
+        <h1 className={ styles.title }>{about[language].title}</h1>
         <h1 className={ styles.subtitle }>{about[language].whoAmI}</h1>
       </div>
       <div className={ styles.main }>

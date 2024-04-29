@@ -7,7 +7,7 @@ export default function Contact() {
   const { language } = useContext(LanguageContext);
 
   return (
-    <div className={ styles.container }>
+    <div id="contact" className={ styles.container }>
       <div className={ styles.containerTitle }>
         <h1 className={ styles.title }>{contact[language].title}</h1>
         <h1 className={ styles.subtitle }>{contact[language].subtitle}</h1>

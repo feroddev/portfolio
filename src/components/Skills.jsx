@@ -7,10 +7,10 @@ export function Skills() {
   const { language } = useContext(LanguageContext);
   console.log(`description${language.toUpperCase()}`);
   return (
-    <div className={ styles.container }>
+    <div id="skills" className={ styles.container }>
       <div className={ styles.subcontainer }>
         <div className={ styles.containerTitle }>
-          <h1 id="skills" className={ styles.title }>{skills[language].title}</h1>
+          <h1 className={ styles.title }>{skills[language].title}</h1>
           <h1 className={ styles.subtitle }>{skills[language].subTitle}</h1>
         </div>
         <div className={ styles.main }>
