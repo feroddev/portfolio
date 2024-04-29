@@ -5,7 +5,6 @@ import styles from '../style/skills.module.css';
 
 export function Skills() {
   const { language } = useContext(LanguageContext);
-  console.log(`description${language.toUpperCase()}`);
   return (
     <div id="skills" className={ styles.container }>
       <div className={ styles.subcontainer }>
