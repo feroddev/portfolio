@@ -110,3 +110,31 @@
   margin-bottom: 15px;
   text-align: center;
 }
+
+@media screen and (max-width: 1000px) {
+  .container {
+    min-height: 100vh;
+    margin-bottom: 300px;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: none;
+    margin: 0 30px;
+  }
+
+  .skill {
+    width: 100%;
+    max-width: none;
+    border-right: none;
+  }
+
+  .skill:not(:nth-last-child(-n+2)) {
+    border-bottom: 1px solid var(--black-opacity-20);
+  }
+
+  .skill:nth-child(even) {
+    border-right: none;
+  }
+}
