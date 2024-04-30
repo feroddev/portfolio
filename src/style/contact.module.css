@@ -61,3 +61,19 @@
   margin-right: 20px;
   width: 30px;
 }
+
+.copyright {
+  font-size: 0.9rem;
+  color: var(--gray-primary);
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+  }
+}

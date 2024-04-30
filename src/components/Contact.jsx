@@ -46,6 +46,7 @@ export default function Contact() {
           </a>
         </div>
       </div>
+      <p className={ styles.copyright }>{contact[language].copyright}</p>
     </div>
   );
 }
