@@ -138,12 +138,21 @@
   .project {
     width: 100%;
     height: 300px;
+    justify-content: center;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
   }
 
   .image {
     width: 100%;
     height: 100%;
+  }
+
+  .title {
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
   }
   
   .project:hover {
