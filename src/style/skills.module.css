@@ -117,6 +117,14 @@
     margin-bottom: 300px;
   }
 
+  .title {
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+  }
+
   .main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -136,5 +144,52 @@
 
   .skill:nth-child(even) {
     border-right: none;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .container {
+    margin-bottom: 400px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  .skill {
+    padding: 20px 10px 40px 10px;
+  }
+
+  .skill ul li {
+    font-size: 0.8rem;
+  }
+
+  .skill img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skill h4 {
+    margin-top: 15px;
+    font-size: 1rem;
+  }
+
+  .skill p {
+    font-size: 0.9rem;
+  }
+
+  .skill h3 {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    min-height: 100vh;
+    margin-bottom: 700px;
   }
 }
