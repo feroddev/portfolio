@@ -52,6 +52,16 @@
   margin-bottom: 15px;
 }
 
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+  }
+}
+
 @media screen and (max-width: 901px){
   .containerTitle {
     margin: 20px 0;
