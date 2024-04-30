@@ -94,6 +94,49 @@
 
 @media screen and (max-width: 1000px) {
   .subContainer {
-    max-height: 500px;
+    max-height: 450px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .subContainer {
+    flex-direction: column-reverse;
+    height: max-content;
+    max-height: none;
+    padding: 10px 0;
+  }
+
+  .image {
+    position: inherit;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .info {
+    padding: 20px 15px 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .greatings {
+    font-size: 1.6rem;
+  }
+
+  .carrer {
+    font-size: 2.8rem;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 100px;
+  }
+
+  .logo {
+    margin-right: 20px;
   }
 }
