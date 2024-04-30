@@ -51,3 +51,24 @@
   text-align: left;
   margin-bottom: 15px;
 }
+
+@media screen and (max-width: 901px){
+  .containerTitle {
+    margin: 20px 0;
+    height: 50px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .textContainer {
+    margin: 30px 0;
+  }
+
+  .text {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+}
