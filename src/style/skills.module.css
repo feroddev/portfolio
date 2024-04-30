@@ -193,3 +193,9 @@
     margin-bottom: 700px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .container {
+    margin-bottom: 750px;
+  }
+}
