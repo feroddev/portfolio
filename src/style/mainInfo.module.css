@@ -91,3 +91,9 @@
 .head {
   color: var(--gray-primary);
 }
+
+@media screen and (max-width: 1000px) {
+  .subContainer {
+    max-height: 500px;
+  }
+}
