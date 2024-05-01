@@ -198,4 +198,8 @@
   .container {
     margin-bottom: 750px;
   }
+
+  .title {
+    font-size: 3rem;
+  }
 }
