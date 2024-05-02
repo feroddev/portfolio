@@ -2,6 +2,7 @@ import { useContext, useState } from 'react';
 import LanguageContext from '../context/language.context';
 import styles from '../style/menu.module.css';
 import header from '../translations/header';
+import SmoothScrollLink from '../utils/smoothLink';
 
 export function Menu() {
   const { language, setLanguage } = useContext(LanguageContext);
@@ -30,21 +31,29 @@ export function Menu() {
         <nav className={ styles.navbar }>
           <ul className={ styles.list }>
             <li className={ styles.item }>
-              <a className={ styles.text } href="#home">{header[language].home}</a>
+              <SmoothScrollLink className={ styles.text } to="home">
+                {header[language].home}
+              </SmoothScrollLink>
             </li>
             <li className={ styles.item }>
-              <a className={ styles.text } href="#about">{header[language].about}</a>
+              <SmoothScrollLink className={ styles.text } to="about">
+                {header[language].about}
+              </SmoothScrollLink>
             </li>
             <li className={ styles.item }>
-              <a className={ styles.text } href="#skills">{header[language].skills}</a>
+              <SmoothScrollLink className={ styles.text } to="skills">
+                {header[language].skills}
+              </SmoothScrollLink>
             </li>
             <li className={ styles.item }>
-              <a className={ styles.text } href="#projects">
+              <SmoothScrollLink className={ styles.text } to="projects">
                 {header[language].projects}
-              </a>
+              </SmoothScrollLink>
             </li>
             <li className={ styles.item }>
-              <a className={ styles.text } href="#contact">{header[language].contact}</a>
+              <SmoothScrollLink className={ styles.text } to="contact">
+                {header[language].contact}
+              </SmoothScrollLink>
             </li>
             <li className={ styles.item } onClick={ changeLanguage }>
               {header[language].changeLanguage}
