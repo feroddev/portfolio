@@ -14,16 +14,24 @@ export function MainInfo() {
           <h1 className={ styles.carrer }>{mainInfo[language].carrer}</h1>
           <a
             className={ styles.button }
-            href="/Felipe_Rodrigues_Fullstack.pdf"
-            download="Felipe_Rodrigues.pdf"
+            href="/Curriculo_Felipe_Rodrigues_Desenvolvedor_Fullstack.pdf"
+            download="Felipe_Rodrigues_Desenvolvedor_Fullstack.pdf"
           >
             {mainInfo[language].button}
           </a>
           <div className={ styles.logos }>
-            <a href="https://github.com/feroddev" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/feroddev"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src="/github.svg" alt="GitHub" className={ styles.logo } />
             </a>
-            <a href="https://www.linkedin.com/in/feroddev/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/feroddev/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src="/linkedin.svg" alt="Linkedin" className={ styles.logo } />
             </a>
           </div>

@@ -1,40 +1,22 @@
+const YEAR_BIRTH = 1996;
+const age = Number(new Date().getFullYear()) - YEAR_BIRTH;
+
 const translations = {
   en: {
     title: 'About',
     whoAmI: 'Who am I?',
-    paragraph1: `I'm Felipe Rodrigues, 28 years old, and I'm passionate
-      about animes, motorcycles, and mathematics. When I was a child, I wanted
-      to be a math teacher, but my life took another turn when I fell in love
-      with Photoshop at 14. I started as a design freelancer at 16 and, at 20,
-      I worked for the City Hall of Ibirapuã, Bahia, for 5 years. During that
-      time, I also studied Paid Traffic to offer Social Media services.`,
-    paragraph2: `In 2022, I discovered Trybe, a school that teaches programming
-      from scratch to a fullstack developer in 1 year. I signed up and, in 2023,
-      I dived into the studies. Initially, I just wanted to learn to program to
-      offer services, but I fell in love with the area and decided to focus
-      entirely on it, leaving marketing aside.`,
-    paragraph3: `The course revived my dream of working with calculations and logic.
-      Today, graduated from Trybe and with additional courses, I am looking for my
-      first opportunity as a Fullstack or Mobile Developer.`,
+    paragraph1: `I'm Felipe Rodrigues, ${age} years old, passionate about animes, motorcycles, and math. Since childhood, I dreamed of becoming a math teacher — but at 14, I discovered Photoshop, which opened my creative side. I started working as a freelance designer at 16, and by 20, I was working at the Ibirapuã City Hall (Bahia) for 5 years. During this time, I also studied Paid Traffic to offer social media services.`,
+    paragraph2: 'In 2022, I found Trybe, a programming school focused on turning students into fullstack developers in one year. I enrolled and in 2023 fully committed to tech. What started as a complementary skill quickly turned into a passion that made me leave marketing behind to focus on development.',
+    paragraph3: 'The course reignited my love for logic and problem solving. Today, I\'m a Trybe graduate with additional technical training, working primarily with React, TypeScript, Node.js, and NestJS. I\'m actively seeking opportunities as a Fullstack Developer to grow my skills, contribute to impactful projects, and evolve professionally.',
+    paragraph4: 'I’m passionate about clean code, scalable systems, and continuous learning. Besides programming, I’m dedicated to personal growth, balancing health and wellbeing, and strengthening my relationships.',
   },
   pt: {
     title: 'Sobre',
     whoAmI: 'Quem sou eu?',
-    paragraph1: `Eu sou Felipe Rodrigues, tenho 28 anos e sou apaixonado
-      por animes, motos e matemática. Quando criança, queria ser professor
-      de matemática, mas minha vida tomou outro rumo quando me encantei 
-      pelo Photoshop aos 14 anos. Comecei como freelancer de design aos 16 
-      e, aos 20, trabalhei para a Prefeitura de Ibirapuã, Bahia, por 5 anos. 
-      Durante esse tempo, também estudei Tráfego Pago para oferecer serviços 
-      de Social Media.`,
-    paragraph2: `Em 2022, descobri a Trybe, uma escola que ensina programação
-      do zero ao desenvolvedor fullstack em 1 ano. Me inscrevi e, em 2023,
-      mergulhei nos estudos. Inicialmente, queria apenas aprender a programar
-      para oferecer serviços, mas me apaixonei pela área e decidi focar 
-      totalmente nela, deixando de lado o marketing.`,
-    paragraph3: `O curso reavivou meu sonho de trabalhar com cálculos e lógica.
-      Hoje, formado na Trybe e com cursos adicionais, estou em busca da minha 
-      primeira oportunidade como Desenvolvedor Fullstack ou Mobile.`,
+    paragraph1: `Sou Felipe Rodrigues, tenho ${age} anos e sou apaixonado por animes, motos e matemática. Desde criança sonhava em ser professor de matemática — mas, aos 14 anos, conheci o Photoshop e tudo mudou, despertando meu lado criativo. Comecei a trabalhar como designer freelancer aos 16, e aos 20 anos ingressei na Prefeitura de Ibirapuã (Bahia), onde atuei por 5 anos. Nesse período, também estudei Tráfego Pago para oferecer serviços de social media.`,
+    paragraph2: 'Em 2022, descobri a Trybe — uma escola que forma desenvolvedores fullstack em um ano. Me inscrevi, e em 2023 mergulhei de cabeça na área de tecnologia. O que começou como uma forma de complementar meus serviços virou uma paixão que me fez deixar o marketing para trás e focar totalmente em desenvolvimento.',
+    paragraph3: 'O curso reacendeu meu interesse por lógica e resolução de problemas. Hoje, sou formado pela Trybe, com capacitações adicionais, atuando principalmente com React, TypeScript, Node.js e NestJS. Busco oportunidades como Desenvolvedor Fullstack para crescer tecnicamente, contribuir com projetos de impacto e evoluir profissionalmente.',
+    paragraph4: 'Sou apaixonado por código limpo, sistemas escaláveis e aprendizado contínuo. Além da programação, dedico-me ao meu crescimento pessoal, equilibrando saúde, bem-estar e fortalecendo meus relacionamentos.',
   },
 };
 

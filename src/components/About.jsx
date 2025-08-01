@@ -18,6 +18,7 @@ export function About() {
           <p className={ styles.text }>{about[language].paragraph1}</p>
           <p className={ styles.text }>{about[language].paragraph2}</p>
           <p className={ styles.text }>{about[language].paragraph3}</p>
+          <p className={ styles.text }>{about[language].paragraph4}</p>
         </div>
       </div>
     </div>
